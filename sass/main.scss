@@ -1,0 +1,204 @@
+/* importeer variabelen */
+@import 'kleur';
+
+/* reset stijlen */
+@import 'reset';
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+  
+  h2 {
+    color: $kleur1;
+  }
+  
+  h4 {
+    color: $kleur1;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  
+  @import 'header';
+  
+  i {
+      border: solid $kleur1;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+    }
+  
+  .down {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+    }
+  
+  #header-image {
+    float: left;
+    height: 55px;
+  }
+  
+  #image1 {
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .content1 {
+      background-color: $kleur2;
+      height: 1400px;
+  }
+  
+@import 'footer';
+  
+  button {
+    background-color: $kleur1;
+    border: none;
+    color: $kleur2;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 40px;
+    width: 320px;
+    border-radius: 7px;
+  }
+  
+  #blue-text {
+    color: $kleur1;
+  }
+  
+  #ipad {
+    float: right;
+    position: absolute;
+    right: 420px;
+    bottom: 160px;
+  }
+  
+  .column {
+    float: left;
+    width: 340px;
+    padding: 10px;
+    height: 500px;
+    margin: 30px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .content2 {
+    background-color: #8BBFDE;
+    height: 450px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 1250px;
+    position: absolute;
+  }
+  
+  #ipad2 {
+    position: absolute;
+    float: right;
+    right: 150px;
+    top: 35px;
+    bottom: 0;
+  }
+  
+  .ipad-actie {
+    color: $kleur2;
+    position: absolute;
+    float: left;
+    left: 200px;
+    top: 80px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  #ipad-text {
+    word-break: break-all;
+    color: $kleur2;
+    position: absolute;
+    float: left;
+    left: 200px;
+    top: 150px;
+  
+  }
+  
+  #button2 {
+    background-color: $kleur1;
+    border: none;
+    color: $kleur2;
+    border: solid $kleur2 2px;
+    position: absolute;
+    top: 300px;
+    left: 195px;
+  }
+  
+  .content3 {
+    background-color: $kleur2;
+    text-align: center;
+    top: 1700px;
+    position: absolute;
+    float: left;
+    width: 100%;
+  
+  }
+  
+  #contact-text {
+    color: #000;
+  }
+  
+  #button3 {
+    background-color: $kleur1;
+    color: $kleur2;
+    position: absolute;
+    top: 180px;
+    left: 790px;
+    width: 100px;
+  }
+  
+  #mobile {
+    position: absolute;
+    right: 0;
+    top: 110px;
+    left: 1280px;
+    bottom: 0;
+    float: right;
+  }
+  
+  #hersens {
+    position: absolute;
+    top: 240px;
+    right: 280px;
+  }
+  
+  #header-text {
+    position: absolute;
+    top: 240px;
+    left: 280px;
+    float: left;
+    color: $kleur2;
+  }
+  
+  #button4 {
+    background-color: $kleur1;
+    color: $kleur2;
+    position: absolute;
+    top: 440px;
+    left: 600px;
+    width: 120px;
+    height: 50px;
+    border: solid 2px $kleur2;
+  }
